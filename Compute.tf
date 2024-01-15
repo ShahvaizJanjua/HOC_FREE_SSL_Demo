@@ -5,7 +5,7 @@ runcmd:
  - echo 'Starting Setup' >> /tmp/setup.log
  - sudo systemctl stop firewalld
  - mkdir -p /var/www/html
- - wget --output-document=/var/www/html/index.html https://objectstorage.eu-frankfurt-1.oraclecloud.com/p/p4PzaLNXnv75fONOTFDiv3gYb_wWwNl5EvGlTBQ9M5YKhx73UtrS5-4VELhDIL17/n/frofufwuvghu/b/SJ_Bucket/o/index.html
+ - wget --output-document=/var/www/html/index.html https://github.com/ShahvaizJanjua/HOC_FREE_SSL_Demo/blob/main/index.html
  - cd /var/www/html
  - nohup python -m http.server 8080 &
 YAML
